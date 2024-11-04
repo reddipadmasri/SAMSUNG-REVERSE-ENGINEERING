@@ -15,9 +15,14 @@ api/v1/scom/in/metrics/autocomplete
 
 
 Captured Request Details: 
+
 Headers: 
 • Host: sribsrch.ecom.samsung.com 
+
 • Content-Type: application/json 
+
+
+
 Request Payload: 
 { 
   "metricsParam": "ea2575b2-c8e9-4f8a-8f16-fe5ca9b5871f", 
@@ -25,6 +30,8 @@ Request Payload:
   "n": "20", 
   "src": "store" 
 } 
+
+
 Response Payload: 
 { 
   "code": "202 ACCEPTED", 
