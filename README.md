@@ -7,8 +7,13 @@ the Samsung e-commerce site.
 1. Monitoring Traffic: Using Postman and Burp Suite to capture network traffic 
 during the search process. 
 2. Identifying API Endpoints: The autocomplete API endpoint was identified: 
+
+ 
+ 
  POST https://sribsrch.ecom.samsung.com/estoresearch
 api/v1/scom/in/metrics/autocomplete 
+
+
 Captured Request Details: 
 Headers: 
 • Host: sribsrch.ecom.samsung.com 
