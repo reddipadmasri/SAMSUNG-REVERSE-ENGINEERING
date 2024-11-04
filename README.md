@@ -3,9 +3,12 @@
 Objective 
 The primary focus was to reverse engineer the autocomplete search functionality on 
 the Samsung e-commerce site. 
+
  Process: 
+
 1. Monitoring Traffic: Using Postman and Burp Suite to capture network traffic 
 during the search process. 
+
 2. Identifying API Endpoints: The autocomplete API endpoint was identified: 
 
  
@@ -40,8 +43,11 @@ Response Payload:
  
  
 Observations: 
+
 • The request sent metrics data along with the search query, indicating that the 
 website collects and processes user search behaviour. 
+
+
 • The response confirms successful collection of metrics, potentially for analytics 
 or personalization purposes.
 
