@@ -1,0 +1,20 @@
+PYTHON CODE
+
+import requests
+
+url = "https://sribsrch.ecom.samsung.com/estoresearch-api/v1/scom/in/metrics/autocomplete"
+payload = {
+    "metricsParam": "ea2575b2-c8e9-4f8a-8f16-fe5ca9b5871f",
+    "q": "smarttv",
+    "n": "20",
+    "src": "store"
+}
+headers = {
+    "Content-Type": "application/json",
+    "Host": "sribsrch.ecom.samsung.com"
+}
+
+response = requests.post(url, json=payload, headers=headers)
+print("Status Code:", response.status_code)
+print("Response Body:", response.json())
+
